@@ -1,10 +1,10 @@
 *{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1;
-    font-size: 80px;
-    color:white;
-    font-weight: 20px;
+    font-size: 20px;
+    font-weight: 10px;
     background: ;
+   
 
     }
 
@@ -14,7 +14,7 @@
 .grid-container{
     background:white;
     display: grid;
-    margin: 50px;
+   
     grid-template-areas: 
     "header header header"
     "header header header"
@@ -26,7 +26,7 @@
     "footer footer footer"
     "footer footer footer";
   
-    border: px solid black;  
+    border: 10px solid #F8C471;  
     grid-template-rows:repeat(auto-fill, 1fr);
 }
 
@@ -34,7 +34,7 @@ a{
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 50px   ;
+    padding: 25px   ;
 }
 
 .grid-item{
@@ -46,7 +46,7 @@ a{
     background:#545251;
     grid-area: header;
     color: white;
-    padding: 80px;
+    padding: 30px;
     width: 100%;
 
 }
@@ -62,8 +62,9 @@ a{
 .grid-footer{
     background:#545251;
     grid-area: footer;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
+    color: white;
 }
 
 .form-li{
@@ -80,7 +81,7 @@ a:hover{
 img{
      width: 100%;
      height: 100%;
-     padding: 50px;
+   
      
     
 }
@@ -88,14 +89,17 @@ img{
     display: grid;
     grid-template-columns:1fr 1fr 1fr ;
     grid: template rows 300px 300px 300px ;
-    border: 40px solid #F8C471;
+    border-left: 10px solid #F8C471 ;
+    border-top: 10px solid #F8C471;
+    border-right: 10px solid #F8C471;
     background: #545251;
+    padding: 15px;
 
 }
 
 .galeria-1{
-    width: 1000px;
-    height: 1000px;
+    width: 200px;
+    height: 200px;
     border-radius: 20%;
 
 
@@ -103,20 +107,22 @@ img{
 
 .galeria-1:active{
     width: 100%;
-    height: 1500px;
+    height: 500px;
     transition: 2s;
 }
 
 .galeria-item{
     border: px solid #F8C471;;
     margin: auto;
+    color: white;
     
 }
 
 .galeria-h2{
     background:#545251 ;
     margin: 0;
-    padding: 50px;
+    padding: 30px;
+    color: white;
 
 }
 
@@ -127,7 +133,7 @@ img{
 .div-container{
     background: #545251;
     text-align: center;
-    border: 40px solid #F8C471;
+    border: 10px solid #F8C471;
     
 }
 .form-container{
@@ -147,11 +153,26 @@ input{
     color: rgb(146, 128, 128);
     width:  100%;
     height: 100%;
-    border: 16px solid black;
+    border: 6px solid black;
+    color: black;
     
 }
 textarea{
     width: 100%;
-    border: 16px solid black;
-
+    border: 6px solid black;
+    color: black;
 }
+
+label{
+    color: white;
+}
+ 
+h3{
+color: white;
+padding: 30px;
+}
+
+
+
+/* quienes somos */
+ 
