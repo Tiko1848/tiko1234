@@ -1,0 +1,157 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1;
+    font-size: 80px;
+    color:white;
+    font-weight: 20px;
+    background: ;
+
+    }
+
+
+
+    
+.grid-container{
+    background:white;
+    display: grid;
+    margin: 50px;
+    grid-template-areas: 
+    "header header header"
+    "header header header"
+    "header header header"
+    "main main main"
+    "main main main"
+    "main main main"
+   "footer footer footer" 
+    "footer footer footer"
+    "footer footer footer";
+  
+    border: px solid black;  
+    grid-template-rows:repeat(auto-fill, 1fr);
+}
+
+a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 50px   ;
+}
+
+.grid-item{
+    text-align: center;
+    
+
+}
+.grid-header{
+    background:#545251;
+    grid-area: header;
+    color: white;
+    padding: 80px;
+    width: 100%;
+
+}
+
+.grid-main{
+    background:#F8C471;
+    grid-area: main;
+    display: inline-block;
+    justify-content: center;
+    
+ }
+
+.grid-footer{
+    background:#545251;
+    grid-area: footer;
+    padding: 40px;
+    text-align: center;
+}
+
+.form-li{
+    display: inline-block;
+    
+
+}
+
+a:hover{
+    color: #F8C471;
+    
+}
+
+img{
+     width: 100%;
+     height: 100%;
+     padding: 50px;
+     
+    
+}
+.galeria-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid: template rows 300px 300px 300px ;
+    border: 40px solid #F8C471;
+    background: #545251;
+
+}
+
+.galeria-1{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 20%;
+
+
+}
+
+.galeria-1:active{
+    width: 100%;
+    height: 1500px;
+    transition: 2s;
+}
+
+.galeria-item{
+    border: px solid #F8C471;;
+    margin: auto;
+    
+}
+
+.galeria-h2{
+    background:#545251 ;
+    margin: 0;
+    padding: 50px;
+
+}
+
+.galeria-h2 h2 b:hover{
+    color:#F8C471 ;
+}
+
+.div-container{
+    background: #545251;
+    text-align: center;
+    border: 40px solid #F8C471;
+    
+}
+.form-container{
+
+    background:#545251;
+    display: grid;
+    justify-content: center;
+   
+    
+    
+
+    
+
+}
+input{
+    padding: 30px;
+    color: rgb(146, 128, 128);
+    width:  100%;
+    height: 100%;
+    border: 16px solid black;
+    
+}
+textarea{
+    width: 100%;
+    border: 16px solid black;
+
+}
